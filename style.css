@@ -239,6 +239,6 @@ li.dropdown {
     display: sticky;
 }
 .media-icons{
-    display: flex;
-    margin: 10px;
+    display: fixed;
+    margin: 5rem;
 }

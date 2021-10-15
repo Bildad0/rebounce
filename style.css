@@ -32,22 +32,24 @@ p {}
 }
 
 header {
-    background-color: rgb(196, 109, 109);
+    /* background-color: rgb(201, 101, 201); */
     width: 100%;
-    height: 150px;
-    margin-top: 10px;
-    padding: 5px;
-    /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F9000%2F1*5H6STKG7-Mh_VGwHMtohTA.png&f=1&nofb=1);  */
+    height: 100vh;
+    /* padding: 5px; */
+    background-image: url(images/pexels-tranmautritam-326501.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-header h1 {
+header .top-nav h1 {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: purple;
 }
 
-header ul {
+header.top-nav ul {
     justify-content: center;
     overflow: auto;
     display: flex;
@@ -55,7 +57,7 @@ header ul {
     padding: 0;
 }
 
-header li {
+header .top-nav li {
     margin: 10px;
     text-decoration-skip: edges;
     float: left;
@@ -63,7 +65,7 @@ header li {
     text-color: white;
 }
 
-header li a {
+header .top-nav li a {
     color: white;
     text-decoration: none;
 }
@@ -181,17 +183,24 @@ header ul {
 
 header ul li {
     float: left;
+    border-radius: 20px;
 }
 
 header ul li a,
 .dropbtn {
     display: inline-block;
-    color: rgb(229, 151, 177);
+    color: rgb(238, 232, 234);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+.media-icons{
+    cursor: pointer;
+    position: right;
+    margin: 5px;
+    padding: 5px 3px;
 
+}
 li a:hover,
 .dropdown:hover .dropbtn {
     background-color: chocolate;
@@ -205,9 +214,9 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: fixed;
-    background-color:rgba(0, 0, 0, 0.2);
+    background-color:rgba(131, 38, 38, 0.404);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(43, 17, 17, 0.2);
     z-index: 1;
 }
 
@@ -220,7 +229,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #0d98a1;
 }
 
 .dropdown:hover .dropdown-content {

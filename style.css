@@ -63,7 +63,7 @@ header.top-nav ul {
     padding: 0;
 }
 
-header .top-nav li {
+.dropdown, .current{
     margin: 10px;
     text-decoration-skip: edges;
     float: left;
@@ -78,15 +78,15 @@ header .top-nav li a {
 
 
 /* main body */
-
+/* 
 main {
     height: 100%;
     width: 100%;
     display: flex;
     margin: auto;
     position: relative;
-}
-
+} */
+/* 
 .major_section {
     height: 100%;
     width: 100%;
@@ -96,10 +96,10 @@ main {
     top: 0;
     left: 0;
     flex-direction: row;
-    /* z-index: 1; */
-}
+    /* z-index: 1;
+} */
 
-.overlay {
+/* .overlay { 
     width: 100%;
     height: 100%;
     background-color: black;
@@ -108,11 +108,11 @@ main {
     left: 0;
     display: flex;
     /* z-index: 5; */
-    /* background-image: url(/images/backgroundimage.jpeg); */
+    /* background-image: url(/images/backgroundimage.jpeg);
     background-size: cover;
     background-position: fixed;
     opacity: .5;
-}
+} */
 
 .main_navigation {
     flex-basis: 33%;
@@ -125,7 +125,7 @@ main {
 
 #neonText {
     color: rgb(47, 105, 109);
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    text-shadow: 0 0 7px #fff, 0 0 10px rgb(255, 255, 255), 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 
 .main_navigation h1 {
@@ -202,15 +202,34 @@ header ul li a,
 }
 .media-icons{
     cursor: pointer;
-    position: right;
-    margin: 5px;
-    padding: 5px 3px;
+    display: inherit;
+    padding: 1px;
+    position: absolute;
+    right: 0px;
+    left: auto;
 
+  
 }
-li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: chocolate;
-    display: flex;
+
+.icon{
+    size: 2px;
+    /* position: relative; */
+    /* display: inline; */
+    /* justify-content: space-between; */
+    /* right: 0px; */
+    margin: 5px;
+    border: inherit;
+    /* padding: 5px; */
+    
+}
+.nav_menu a:hover,
+.dropdown:hover{
+    /* display: flex; */
+    background-color: rgba(5, 143, 143, 0.651);
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+
 }
 
 li.dropdown {
@@ -218,9 +237,10 @@ li.dropdown {
 }
 
 .dropdown-content {
+    border-radius: 10px;
     display: none;
     position: fixed;
-    background-color:rgba(131, 38, 38, 0.404);
+    background-color:rgba(146, 37, 37, 0.651);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(43, 17, 17, 0.2);
     /* z-index: 9999; */
@@ -232,10 +252,12 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
+    border-radius: 10px;
 }
 
 .dropdown-content a:hover {
     background-color: #0d98a1;
+    border-radius: inherit;
 }
 
 .dropdown:hover .dropdown-content {
@@ -244,23 +266,10 @@ li.dropdown {
 
 .nav_menu {
     overscroll-behavior-x: none;
-    top: 5;
     display: static;
     position: fixed;
-    right: 0;
-    left: 0;
     align-items: center;
     box-shadow: 0 0 25px 0 transparent;
-}
-
-.nav_menu * {
-    display: sticky;
-}
-.media-icons{
-    display: inherit;
-    float: right;
-    padding: 0px;
-
 }
 
 /* start */
@@ -292,8 +301,10 @@ li.dropdown {
     border: 0px;
 }
 
-.button:hover{
+.button:hover {
+    size-adjust: 3px;
     background-color: rgb(4, 191, 238);
+    justify-content: space-between;
 }
 
 .catch_phrase{
@@ -331,14 +342,21 @@ li.dropdown {
     margin: 5px;
 
 }
-img{
+
+.container-item img{
     border: 1px solid;
     border-radius: 3px;
     padding: 4px;
     width: 45px;
     height: 50px;
+    color:#0fa;
 }
 
+.container-item img:hover {
+    background-color: rgb(4, 191, 238);
+    border-radius: 10px;
+    /* size-adjust: 40px; */
+}
 .bottom{
     display: flex;
     position: absolute;
@@ -346,3 +364,10 @@ img{
     bottom: 0%;
 }
 /* ends */
+/* top icons styles */
+.icon img{
+    border-radius: 10px solid;
+    padding: 1px;
+    /* width: 30px; */
+    height: 30px;
+}

@@ -1,0 +1,54 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: expanded;
+    margin: auto;
+    height: auto;
+}
+
+body{
+    height: 100vh;
+}
+.heading{
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.card-title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.bronze, .silver, .gold, .complex {
+    background-color: rgb(56, 151, 211);
+    margin: 50px;
+    border:10px;
+}
+.card-text{
+    text-align: center;
+    text-transform: capitalize;
+}
+.price{
+    border-radius: 30px;
+    text-align: center;
+}
+.btn1{
+    padding: 50px;
+    border-radius: 50%;
+}
+button{
+    background-color: rgb(56, 151, 211);
+    color: black;
+}
+.text-muted{
+    font-stretch: expanded;
+    text-align: center;
+    color: black;
+} 
+.btn2{
+    border-radius: 30px;
+    background-color:aqua;
+}
+.bronze:hover, .silver:hover, .gold:hover, .complex:hover{
+
+} 

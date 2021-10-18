@@ -2,6 +2,7 @@
     color: #000;
     /* background-color: #ffd; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: expanded;
 }
 
 body {
@@ -222,14 +223,20 @@ header ul li a,
     /* padding: 5px; */
     
 }
+
+.icon img:hover{
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
 .nav_menu a:hover,
 .dropdown:hover{
     /* display: flex; */
-    background-color: rgba(5, 143, 143, 0.651);
+    /* background-color: rgba(5, 143, 143, 0.651); */
     border-radius: 30px;
     height: auto;
     width: auto;
-
+    text-decoration: underline;
+    color: #000;
 }
 
 li.dropdown {
@@ -296,7 +303,7 @@ li.dropdown {
 .button{
     width: 150px;
     height: 50px;
-    background-color: red;
+    background-color: rgba(196, 36, 36, 0.678);
     border-radius: 25px ;
     border: 0px;
 }

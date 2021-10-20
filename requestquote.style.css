@@ -1,0 +1,23 @@
+.nav_menu{
+    background-color: rgba(184, 7, 7, 0.87);
+}
+.Message{
+position: absolute;
+right: 5%;
+left: 0%;
+bottom: 85%;
+}
+label{
+    text-transform: capitalize;
+ }
+.details{
+    position: inherit;
+    top: 0%;
+    bottom: 80%;
+}
+
+.services{
+    position: absolute;
+    right: 0%;
+    left: 70%;
+}

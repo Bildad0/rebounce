@@ -7,7 +7,11 @@
 header{
     margin-top: 10px;
     text-align: center;
-}
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font: bold;
+} 
 h2{
     margin: 10px;
 }
@@ -47,18 +51,18 @@ h5, p, .price{
     margin-bottom: 20px;
 }
 .price{
-    border-radius: 30px;
+    color: white;
     text-align: center;
 }
 .btn1{
-    padding: 50px;
+    padding: 40px;
     border-radius: 60%;
 }
 button{
     background-color: rgb(56, 151, 211);
     border-color: whitesmoke;
 }
-.gold-btn{
+.gold-btn, .premier-btn{
     background-color: black;
 }
 .btn2{
@@ -70,10 +74,10 @@ button{
     border-radius: 30px;
     background-color: rgba(157, 202, 229, 0.836);
 }
-.bronze:hover, .silver:hover, .gold:hover, .complex:hover{
+/* .bronze:hover, .silver:hover, .gold:hover, .complex:hover{
     color: brown;
     size-adjust: 100%;
-}
+} */
 .gold-footer{
     background-color:orange;
     padding: 10px;
@@ -81,7 +85,7 @@ button{
     left: 0%;
     right: 0%;
     bottom: 0px;
-    top: 89%;
+    top: 90%;
 }
 .footer{
     background-color: black;
@@ -90,8 +94,12 @@ button{
     left: 0%;
     right: 0%;
     bottom: 0px;
-    top: 89%;
+    top: 90%;
 }
 /* .text-muted{ 
     color: whitesmoke;
 } */
+.basic-btn, .dynamic-btn, .premier-btn, .complex-btn{
+    padding: 40px;
+    border-radius: 60%;
+}

@@ -203,8 +203,8 @@ header ul li a,
 }
 .media-icons{
     cursor: pointer;
-    display: inherit;
-    padding: 1px;
+    display: flex;
+    /* padding: 1px; */
     position: absolute;
     right: 0px;
     left: auto;

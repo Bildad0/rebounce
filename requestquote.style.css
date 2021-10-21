@@ -1,5 +1,14 @@
+.bodyImage image{
+  max-width: 10px;
+  max-height: 8px;
+}
+
+
+
+
 .nav_menu{
-    background-color: rgba(184, 7, 7, 0.87);
+    background-color: rgb(184, 7, 7);
+    z-index: 999;
 }
 .Message{
 position: absolute;
@@ -11,13 +20,45 @@ label{
     text-transform: capitalize;
  }
 .details{
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
+    left: 60%;
+}
+.email-form{
     position: inherit;
-    top: 0%;
-    bottom: 80%;
+ margin: 10px;
+ margin-right: 15px;
+
 }
 
 .services{
     position: absolute;
     right: 0%;
     left: 70%;
+}
+/* .help:hover{
+    color: red;
+} */
+.bodyImage{
+    background-image: url(./images/webdesign.jpg);
+}
+
+.FirstName, .SecondName{
+    /* margin: 5px; */
+    min-width: 250px;
+    /* padding: 10px; */
+}
+.SecondName{
+    position: inherit;
+    right: 0;
+    bottom: 40%;
+    left: 85%;
+}
+
+.FirstName{
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    left: auto;
 }

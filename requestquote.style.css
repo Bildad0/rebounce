@@ -1,53 +1,77 @@
-.bodyImage image{
-  max-width: 10px;
-  max-height: 8px;
+
+header{
+    height: 3vh !important;
 }
-
-
-
-
+section{
+    display: flex;
+    position: flex;
+    height: 50%;
+}
+.webimage{
+  object-fit: cover;
+  width: 65%;
+  height: 150vh;
+  opacity: 1;
+}
 .nav_menu{
     background-color: rgb(184, 7, 7);
     z-index: 999;
 }
-.Message{
-position: absolute;
-right: 5%;
-left: 0%;
-bottom: 85%;
+.image-section{
+    display: flex;
+    left: 0;
+    right: 80%;
+
 }
-label{
+.form-section{
+    position: relative;
+    left: 65%;
+    right: 0%;
+    height: 80vh;
+    display: flex;
+    top: 0;
+}
+/* .Message{
+position: absolute;
+right: 0;
+left: 0;
+bottom: 80%;
+min-width: 300px;
+top: 20%;
+} 
+ label{
     text-transform: capitalize;
- }
-.details{
-    position: absolute;
+ } 
+ .details{
+    position: flex;
     top: 40%;
     bottom: 60%;
     left: 60%;
 }
-.email-form{
-    position: inherit;
- margin: 10px;
- margin-right: 15px;
-
+.EmailAddress{
+    position: flex;
+    margin: 10px; 
+    right: 0%;
+    left: auto;
+    min-width: 100px;
 }
 
 .services{
-    position: absolute;
+    position: flex;
     right: 0%;
-    left: 70%;
+    left: 60%;
 }
-/* .help:hover{
+ .help:hover{
     color: red;
-} */
+} 
 .bodyImage{
     background-image: url(./images/webdesign.jpg);
-}
+} 
 
-.FirstName, .SecondName{
-    /* margin: 5px; */
-    min-width: 250px;
-    /* padding: 10px; */
+.FirstName, .SecondName, .company{
+    margin: 5px;
+    min-width: 280px;
+    padding: 10px;
 }
 .SecondName{
     position: inherit;
@@ -57,8 +81,27 @@ label{
 }
 
 .FirstName{
-    position: absolute;
+    position: flex;
     bottom: 60%;
     right: 10%;
     left: auto;
 }
+.PhoneNumber{
+    position: relative;
+    left: auto;
+    right: 10px;
+    min-width: 280px;
+}
+
+.inquiry{
+min-width: 300px;
+left: 0%;
+right: 0%;
+}
+.company{
+    position: flex;
+    right: 0%;
+    bottom: 20%; 
+    left: 85%;
+    top: 70%;
+} */

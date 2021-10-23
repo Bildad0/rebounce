@@ -1,36 +1,54 @@
-
+ @
 header{
-    height: 3vh !important;
+    /* height: 3vh !important; */
+     height: 80px !important;
 }
-section{
+
+.container{
+    width: 50%;
+    height: auto;
     display: flex;
-    position: flex;
-    height: 50%;
+    background-color: grey;
+    /* align-items: center; */
 }
+
 .webimage{
-  object-fit: cover;
-  width: 65%;
-  height: 150vh;
-  opacity: 1;
+   width: 60%;
+   height: 110%;
 }
+
 .nav_menu{
     background-color: rgb(184, 7, 7);
-    z-index: 999;
+    z-index: 999
 }
-.image-section{
-    display: flex;
-    left: 0;
-    right: 80%;
+.dropOpacity{
+    background-color: rgb(160, 39, 39) !important;
+}
 
-}
+
 .form-section{
-    position: relative;
-    left: 65%;
-    right: 0%;
-    height: 80vh;
     display: flex;
-    top: 0;
+    flex-basis: 48%;
+  
 }
+.float-left{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    right: auto;
+}
+.float-right{
+    position: absolute;
+    top: 15%;
+    right: 0px;
+    left: auto;
+}
+
+
+
+
+
+
 /* .Message{
 position: absolute;
 right: 0;
@@ -38,11 +56,12 @@ left: 0;
 bottom: 80%;
 min-width: 300px;
 top: 20%;
-} 
+ }  */
+
  label{
     text-transform: capitalize;
  } 
- .details{
+ /* .details{
     position: flex;
     top: 40%;
     bottom: 60%;
@@ -63,45 +82,12 @@ top: 20%;
 }
  .help:hover{
     color: red;
-} 
-.bodyImage{
-    background-image: url(./images/webdesign.jpg);
-} 
+ }  */
 
-.FirstName, .SecondName, .company{
-    margin: 5px;
-    min-width: 280px;
-    padding: 10px;
-}
-.SecondName{
-    position: inherit;
-    right: 0;
-    bottom: 40%;
-    left: 85%;
-}
 
-.FirstName{
-    position: flex;
-    bottom: 60%;
-    right: 10%;
-    left: auto;
-}
-.PhoneNumber{
+.FirstName, .SecondName, .company, .EmailAddress, .services{
     position: relative;
-    left: auto;
-    right: 10px;
-    min-width: 280px;
+    display: flex;
+    flex-basis: auto;
+    flex: 1 30px;
 }
-
-.inquiry{
-min-width: 300px;
-left: 0%;
-right: 0%;
-}
-.company{
-    position: flex;
-    right: 0%;
-    bottom: 20%; 
-    left: 85%;
-    top: 70%;
-} */

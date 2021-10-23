@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Request Quote</title> 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="requestquote.style.css">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <header>
-            <ul class="nav_menu">
-                <li> <a class="current" href="/index.html">Home</a></li>
-                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About Us</a>
-                    <div class="dropdown-content">
-                        <a href="/html/about us.html"> Who we are</a>
-                        <a href="#">Our internet succes story.</a>
-                        <a href="#">Rebounce Group Brands.</a>
-                        <a href="#"> Latest Vacancies</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Photo Gallery</a>
-                        <a href="#">Website design Branches</a>
-                    </div>
-                </li>
-                <li class="dropdown"><a href="packages.html">Ask Quote</a></li>
-                <li class="dropdown"><a href="javascript:void(0)">Services</a>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Quote</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="requestquote.style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav_menu">
+            <li> <a class="current" href="/index.html">Home</a></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About Us</a>
+                <div class="dropdown-content">
+                    <a href="/html/about us.html"> Who we are</a>
+                    <a href="#">Our internet succes story.</a>
+                    <a href="#">Rebounce Group Brands.</a>
+                    <a href="#"> Latest Vacancies</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Photo Gallery</a>
+                    <a href="#">Website design Branches</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="packages.html">Ask Quote</a></li>
+            <li class="dropdown"><a href="javascript:void(0)">Services</a>
                 <div class="dropdown-content">
                     <a href="#"> Web Design</a>
                     <a href="#">Domain & Hosting</a>
@@ -32,99 +35,118 @@
                     <a href="#"> Digital Agency</a>
                     <a href="#">Software & Mobile Apps</a>
                 </div>
-                </li>
-                <li class="dropdown"><a href="/html/portofolio.html">Our portfolio</a></li>
-                <li><a href="/html/contacts.html">Contacts</a></li>
-                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Clients</a>
-                <div class="dropdown-content">
+            </li>
+            <li class="dropdown"><a href="/html/portofolio.html">Our portfolio</a></li>
+            <li><a href="/html/contacts.html">Contacts</a></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Clients</a>
+                <div class="dropdown-content dropOpacity">
                     <a href="#">Client Area(Domain & Hosting)</a>
                     <a href="#">Support Ticket</a>
                     <a href="#">Bulk SMS Login</a>
                     <a href="#">Payment Modes</a>
                 </div>
+            </li>
+            <div class="media-icons">
+                <li class="icon">
+                    <a href="https://github.com/"><img src="./icons/github.png" alt="github"></a>
                 </li>
-                <div class="media-icons">  
-                    <li class="icon"> 
-                        <a href="https://github.com/"><img src="./icons/github.png" alt="github"></a> 
-                    </li>
-                    <li class="icon">
-                        <a href="https://twitter.com/"> <img src="./icons/twitter.png" alt="Twitter"></a>
-                    </li>
-                  <li class="icon">
-                     <a href="https://linkedin.com"><img src="./icons/linkedin.png" alt="LinkedIn"></a>
-                  </li>
-                    <li class="icon">
-                        <a href="https://instagram.com"><img src="./icons/instagram.png" alt="Instagram"></a>
-                    </li>
-                  <li class="icon">
-                        <a href="https://facebook.com"><img src="./icons/facebook.png" alt="Facebook"></a>
-                  </li>
-                </div>
-             </ul>
-        </header>
+                <li class="icon">
+                    <a href="https://twitter.com/"> <img src="./icons/twitter.png" alt="Twitter"></a>
+                </li>
+                <li class="icon">
+                    <a href="https://linkedin.com"><img src="./icons/linkedin.png" alt="LinkedIn"></a>
+                </li>
+                <li class="icon">
+                    <a href="https://instagram.com"><img src="./icons/instagram.png" alt="Instagram"></a>
+                </li>
+                <li class="icon">
+                    <a href="https://facebook.com"><img src="./icons/facebook.png" alt="Facebook"></a>
+                </li>
+            </div>
+        </ul>
+    </header>
+
+    <section class="container">
         <section class="image-section">
             <img src="./images/websitedesign.png" alt="web design Image" class="rounded float-left webimage">
         </section>
         <!-- i). The form part of the body, the body is suppose
-             to have an image on the left or maybe an enlarged svg, 
-            then the form part, lastly the service inquiry selector. -->
-            <section class="form-section"> 
-                <form class="details">
-                    <div class="col-md-4 mb-3 FirstName">
-                     <label for="validationCustom01">First name&#42; </label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
-                    </div>
-                    <div class="col-md-4 mb-3 SecondName">
-                        <label for="validationCustom01">Second Name&#42; </label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="Second Name" value="" required>
-                    </div>
-                    <div class="col-md-4 mb-3 PhoneNumber">
-                        <label for="validationCustom01">phone number&#42; </label>
-                        <input type="phone number" class="form-control" id="validationCustom01" placeholder="phone number" value="" required>
-                    </div>
-                    <div class="col-md-4 mb-3 company">
-                        <label for="validationCustom01">name of company</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="Name Of company" value="" required>
-                    </div>
-                    <div class="form-group email-form EmailAddress">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="services">
-                        <!-- <div class="col">
+                 to have an image on the left or maybe an enlarged svg, 
+                then the form part, lastly the service inquiry selector. -->
+        <section class="form-section float-right">
+            <form class="details">
+                <div class="col mb-3 FirstName">
+                    <label for="validationCustom01">First name&#42; </label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value=""
+                        required>
+                </div>
+                <div class="col mb-3 SecondName">
+                    <label for="validationCustom01">Second Name&#42; </label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Second Name" value=""
+                        required>
+                </div>
+                <div class="col mb-3 PhoneNumber">
+                    <label for="validationCustom01">phone number&#42; </label>
+                    <input type="phone number" class="form-control" id="validationCustom01" placeholder="phone number"
+                        value="" required>
+                </div>
+                <div class="col mb-3 company">
+                    <label for="validationCustom01">name of company</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Name Of company"
+                        value="" required>
+                </div>
+                <div class="form-group email-form EmailAddress">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+                <div class="services">
+                    <!-- <div class="col">
                             <input type="text" class="form-control" placeholder="Name">
-                          </div>
-                          <div class="form-group col-md-6">
+                            </div>
+                            <div class="form-group col-md-6">
                             <label for="inputEmail4">Email</label>
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                          </div> -->
-                        <div class="form-group Message">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <form class="form-inline inquiry">
-                                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">service Inquiry</label>
-                                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                                    <option selected>Choose...</option>
-                                    <option value="1">Web Design & Maintanance</option>
-                                    <option value="2">Bulk SMS</option>
-                                    <option value="3">Domain & Hosting</option>
-                                    <option value="4">Search Engine Optimization (SEO)</option>
-                                    <option value="5">Social Media marketing</option>
-                                    <option value="6">Media Buying (PPC/Ads)</option>
-                                    <option value="7">USSD & Short Codes</option>
-                                    <option value="8">Email Marketing</option>
-                                    <option value="9">Photography & Video Services</option>
-                                    <option value="10">Mobile Apps & Systems</option>
-                                    <option value="11">SSL</option>
-                                </select>
-                                <button type="submit" class="btn btn-primary my-1">Submit</button>
-                            </form>
-                        </div>  
+                            </div> -->
+                    <div class="form-group Message">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <form class="form-inline inquiry">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">service Inquiry</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>Choose...</option>
+                                <option value="1">Web Design & Maintanance</option>
+                                <option value="2">Bulk SMS</option>
+                                <option value="3">Domain & Hosting</option>
+                                <option value="4">Search Engine Optimization (SEO)</option>
+                                <option value="5">Social Media marketing</option>
+                                <option value="6">Media Buying (PPC/Ads)</option>
+                                <option value="7">USSD & Short Codes</option>
+                                <option value="8">Email Marketing</option>
+                                <option value="9">Photography & Video Services</option>
+                                <option value="10">Mobile Apps & Systems</option>
+                                <option value="11">SSL</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary my-1">Submit</button>
+                        </form>
                     </div>
-                </form>
-            </section>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+                </div>
+            </form>
+        </section>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>

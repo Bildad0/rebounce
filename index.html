@@ -5,109 +5,328 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rebounce Computers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/styles2.css">
+    <!-- <link rel="stylesheet" href="packages.style.css"> -->
     <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
 
     <div class="content" id="content">
-        <header>
-            <section class="top-nav" style="background-color: rgba(207, 9, 9, 0.952); width: 100%; height: 150px;">
-                <h1 class="heading" id="neonText"> Rebounce Computers </h1>
 
-                <ul class="nav_menu">
-                <li> <a class="current" href="/index.html">Home</a></li>
-                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About Us</a>
-                    <div class="dropdown-content">
-                        <a href="/html/about us.html"> Who we are</a>
-                        <a href="#">Our internet succes story.</a>
-                        <a href="#">Rebounce Group Brands.</a>
-                        <a href="#"> Latest Vacancies</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Photo Gallery</a>
-                        <a href="#">Website design Branches</a>
+        <section class="header-wrapper">
+            <div class="header-overlay">
+
+            </div>
+            <header>
+                <!--Top section of the landing page-->
+                <section class="top-nav" >
+                    <h1 class="heading" id="neonText"> Rebounce Computers </h1>
+
+                    <div class="container">
+                        <ul class="nav_menu">
+                            <li> <a class="current" href="/index.html">Home</a></li>
+                            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About Us</a>
+                                <div class="dropdown-content">
+                                    <a href="/html/about us.html"> Who we are</a>
+                                    <a href="#">Our internet succes story.</a>
+                                    <a href="#">Rebounce Group Brands.</a>
+                                    <a href="#"> Latest Vacancies</a>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Photo Gallery</a>
+                                    <a href="#">Website design Branches</a>
+                                </div>
+                            </li>
+                            <li class="dropdown"><a href="packages.html">Ask Quote</a></li>
+                            <li class="dropdown"><a href="javascript:void(0)">Services</a>
+                                <div class="dropdown-content">
+                                    <a href="#"> Web Design</a>
+                                    <a href="#">Domain & Hosting</a>
+                                    <a href="#">Bulk SMS & Shortcodes</a>
+                                    <a href="#"> Digital Agency</a>
+                                    <a href="#">Software & Mobile Apps</a>
+                                </div>
+                            </li>
+                            <li class="dropdown"><a href="/html/portofolio.html">Our portfolio</a></li>
+                            <li><a href="/html/contacts.html">Contacts</a></li>
+                            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Clients</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Client Area(Domain & Hosting)</a>
+                                    <a href="#">Support Ticket</a>
+                                    <a href="#">Bulk SMS Login</a>
+                                    <a href="#">Payment Modes</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--end nav-menu-->
+                        <div class="media-icons">
+                            <li class="icon">
+                                <a href="https://www.github.com"><img src="./icons/github.png" alt="github"></a>
+                            </li>
+                            <li class="icon">
+                                <a href="https://www.twitter.com"> <img src="./icons/twitter.png" alt="Twitter"></a>
+                            </li>
+                            <li class="icon">
+                                <a href="https//:www.linkedin.com"><img src="./icons/linkedin.png" alt="LinkedIn"></a>
+                            </li>
+                            <li class="icon">
+                                <a href="https://www.instagram.com"><img src="./icons/instagram.png"
+                                        alt="Instagram"></a>
+                            </li>
+                            <li class="icon">
+                                <a href="https://www.facebook.com"><img src="./icons/facebook.png" alt="Facebook"></a>
+                            </li>
+                        </div>
+                        <!--end media-icons-->
                     </div>
-                </li>
-                <li class="dropdown"><a href="packages.html">Ask Quote</a></li>
-                <li class="dropdown"><a href="javascript:void(0)">Services</a>
-                <div class="dropdown-content">
-                    <a href="#"> Web Design</a>
-                    <a href="#">Domain & Hosting</a>
-                    <a href="#">Bulk SMS & Shortcodes</a>
-                    <a href="#"> Digital Agency</a>
-                    <a href="#">Software & Mobile Apps</a>
-                </div>
-                </li>
-                <li class="dropdown"><a href="/html/portofolio.html">Our portfolio</a></li>
-                <li><a href="/html/contacts.html">Contacts</a></li>
-                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Clients</a>
-                <div class="dropdown-content">
-                    <a href="#">Client Area(Domain & Hosting)</a>
-                    <a href="#">Support Ticket</a>
-                    <a href="#">Bulk SMS Login</a>
-                    <a href="#">Payment Modes</a>
-                </div>
-                </li>
-                <div class="media-icons">  
-                    <li class="icon"> 
-                        <a href="https://github.com"><img src="./icons/github.png" alt="github"></a> 
-                    </li>
-                    <li class="icon">
-                        <a href="https://twitter.com"> <img src="./icons/twitter.png" alt="Twitter"></a>
-                    </li>
-                  <li class="icon">
-                     <a href="https://linkedin.com"><img src="./icons/linkedin.png" alt="LinkedIn"></a>
-                  </li>
-                    <li class="icon">
-                        <a href="https://instagram.com"><img src="./icons/instagram.png" alt="Instagram"></a>
-                    </li>
-                  <li class="icon">
-                        <a href="https://facebook.com"><img src="./icons/facebook.png" alt="Facebook"></a>
-                  </li>
-                </div>
-             
-             </ul>
-          
-            </section>
+                    <!--end of container-->
+                </section>
 
-            <section class="wrapper">
-                <div class="container container-centre">
-                    <h1 class="catch_phrase">Your Complete Online Presence<br> <span class="priority">Our Priority</span></h1>
-                    <button class="button">Request a Quote<i class="fas fa-greater-than"></i> </button>
-                </div>
-            </section>
-            <section class="wrapper bottom">
-                <div class="container">
-                    <div class="container-item">
-                        <img src="./icons/web-development.png" alt="web dev">
-                        <h4>Web<br>Design</h4>
+                <!--middle section of landing page-->
+                <section class="wrapper middle-section">
+                    <div class="container container-centre">
+                        <h1 class="catch_phrase">Your Complete Online Presence<br> <span class="priority">Our
+                                Priority</span></h1>
+                        <button class="button">Request a Quote<i class="fas fa-greater-than"></i> </button>
                     </div>
-                    <div class="container-item">
-                        <img src="./icons/network.png" alt="network">
-                        <h4>Domain &<br>Hosting</h4>
+                </section>
+                <section class="wrapper container-bottom">
+                    <div class="container">
+                        <div class="container-item">
+                            <img src="./icons/web-development.png" alt="web dev">
+                            <h4>Web<br>Design</h4>
+                        </div>
+                        <div class="container-item">
+                            <img src="./icons/network.png" alt="network">
+                            <h4>Domain &<br>Hosting</h4>
+
+                        </div>
+                        <div class="container-item">
+                            <img src="./icons/smartphone.png" alt="smartphone">
+                            <h4>Bulk<br> SMS</h4>
+                        </div>
+                        <div class="container-item">
+                            <img src="./icons/marketing.png" alt="marketing">
+                            <h4>Digital<br> Agency</h4>
+                        </div>
 
                     </div>
-                    <div class="container-item">
-                        <img src="./icons/smartphone.png" alt="smartphone">
-                        <h4>Bulk<br> SMS</h4>
-                    </div>
-                    <div class="container-item">
-                        <img src="./icons/marketing.png" alt="marketing">
-                        <h4>Digital<br> Agency</h4>
-                    </div>
 
+                </section>
+
+            </header>
+        </section>
+
+        <!-- Main Body -- Joined package with this -->
+        <section class="main-body-wrappper">
+            <h1>Our package Offers </h1>
+            <h2>You can choose from a variaty of packages that suit you needs at a fair price</h2>
+            <div class="packages non-cms-packs">
+                    <h1>Starter non-CMS Websites Packages</h1>
+                <div class="card-group">
+                    <div class="card bronze">
+                        <div class="card-body">
+                            <h5 class="card-title">Bronze</h5>
+                            <!-- <button class="btn1">
+                                <div class="price">5,000</div>
+                            </button> -->
+                            <button class="price_butt">
+                               5000
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request Quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card silver">
+                        <div class="card-body">
+                            <h5 class="card-title">silver</h5>
+                            <button class="price_butt">
+                                <div class="price"> 15,000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request Quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card gold">
+                        <div class="card-body">
+                            <h5 class="card-title">gold</h5>
+                            <button class="price_butt">
+                                <div class="price">25,000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="gold-footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card complex">
+                        <div class="card-body">
+                            <h5 class="card-title">complex</h5>
+                            <button class="price_butt">
+                                <div class="price">30,000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-            </section>
 
-        </header>
+            <!-- Corporate label -->
+            <div class="packages cms-packs">
+        
+                    <h1>corporates CMS custom website design Packages</h1>
+               
+                <div class="card-group">
+                    <div class="card bronze">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic</h5>
+                            <button class="price_butt">
+                                <div class="price">30,000-<br>50,000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                          
+                            <div class="footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request Quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card silver">
+                        <div class="card-body">
+                            <h5 class="card-title">dynamic</h5>
+                            <button class="price_butt">
+                                <div class="price">50,000-<br>100,000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request Quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card gold">
+                        <div class="card-body">
+                            <h5 class="card-title">premier</h5>
+                            <button class="price_butt">
+                                <div class="price">100,000-<br>250,000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="gold-footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card complex">
+                        <div class="card-body">
+                            <h5 class="card-title">complex</h5>
+                            <button class="price_butt">
+                                <div class="price">Over<br>250,0000</div>
+                            </button>
+                            <ul>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                                <li>5-15 Pages</li>
+                            </ul>
+                            <div class="footer">
+                                <button class="btn2">
+                                    <p class="card-text"><small class="text-muted">Request quote</small></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
 
     </div>
-    
+    <!--end content-->
+
 
     <script src="scripts/mainscript.js "></script>
 </body>

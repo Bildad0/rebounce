@@ -1,93 +1,64 @@
- @
-header{
-    /* height: 3vh !important; */
-     height: 80px !important;
+.bodyImage image{
+  max-width: 10px;
+  max-height: 8px;
 }
 
-.container{
-    width: 50%;
-    height: auto;
-    display: flex;
-    background-color: grey;
-    /* align-items: center; */
-}
 
-.webimage{
-   width: 60%;
-   height: 110%;
-}
+
 
 .nav_menu{
     background-color: rgb(184, 7, 7);
-    z-index: 999
+    z-index: 999;
 }
-.dropOpacity{
-    background-color: rgb(160, 39, 39) !important;
-}
-
-
-.form-section{
-    display: flex;
-    flex-basis: 48%;
-  
-}
-.float-left{
-    position: absolute;
-    top: 10%;
-    left: 0px;
-    right: auto;
-}
-.float-right{
-    position: absolute;
-    top: 15%;
-    right: 0px;
-    left: auto;
-}
-
-
-
-
-
-
-/* .Message{
+.Message{
 position: absolute;
-right: 0;
-left: 0;
-bottom: 80%;
-min-width: 300px;
-top: 20%;
- }  */
-
- label{
+right: 5%;
+left: 0%;
+bottom: 85%;
+}
+label{
     text-transform: capitalize;
- } 
- /* .details{
-    position: flex;
+ }
+.details{
+    position: absolute;
     top: 40%;
     bottom: 60%;
     left: 60%;
 }
-.EmailAddress{
-    position: flex;
-    margin: 10px; 
-    right: 0%;
-    left: auto;
-    min-width: 100px;
+.email-form{
+    position: inherit;
+ margin: 10px;
+ margin-right: 15px;
+
 }
 
 .services{
-    position: flex;
+    position: absolute;
     right: 0%;
-    left: 60%;
+    left: 70%;
 }
- .help:hover{
+/* .help:hover{
     color: red;
- }  */
+} */
+.bodyImage{
+    background-image: url(./images/webdesign.jpg);
+}
 
+.FirstName, .SecondName{
+    /* margin: 5px; */
+    min-width: 250px;
+    /* padding: 10px; */
+}
+.SecondName{
+    position: inherit;
+    right: 0;
+    bottom: 40%;
+    left: 85%;
+}
 
-.FirstName, .SecondName, .company, .EmailAddress, .services{
-    position: relative;
-    display: flex;
-    flex-basis: auto;
-    flex: 1 30px;
+.FirstName{
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    left: auto;
 }

@@ -36,12 +36,7 @@ h2{
     border:10px;
     height: fit-content;
 }
-.bronze, .silver, .complex{
-    background-color: rgb(56, 151, 211);
-}
-.gold{
-    background-color: black;
-}
+
 h5, p, .price{
     color: white;
 }
@@ -65,37 +60,13 @@ button{
 .gold-btn, .premier-btn{
     background-color: black;
 }
-.btn2{
-    border: 0px;
-    position: absolute;
-    left: 30%;
-    right: auto;
-    bottom: 4px;
-    border-radius: 30px;
-    background-color: rgba(157, 202, 229, 0.836);
-}
+
 /* .bronze:hover, .silver:hover, .gold:hover, .complex:hover{
     color: brown;
     size-adjust: 100%;
 } */
-.gold-footer{
-    background-color:orange;
-    padding: 10px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    bottom: 0px;
-    top: 90%;
-}
-.footer{
-    background-color: black;
-    padding: 10px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    bottom: 0px;
-    top: 90%;
-}
+
+
 /* .text-muted{ 
     color: whitesmoke;
 } */
